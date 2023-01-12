@@ -62,9 +62,14 @@ def weather_summary(conditions):
 city_guesses = random.sample(list(city), 4)
 correct = city_guesses[random.randint(0, 3)]
 
-# TODO: Add logic to get city's weather, print guesses, process correct guess
-
-latitude = 40.00
-longitude = -83.01
+latitude = city[correct][0]
+longitude = city[correct][1]
 response = requests.get(f'https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&current_weather=true')
-print(weather_summary(response.json()['current_weather']))
+print(f'Guess which city had this weather:\n{weather_summary(response.json()["current_weather"])}\n')
+
+for i, guess in enumerate(city_guesses):
+    print(f'{i}: {guess}')
+
+input()
+
+print(f'The correct answer was {correct}.')
