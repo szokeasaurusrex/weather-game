@@ -14,7 +14,11 @@ city = {
     "London" : (51.5072, 0.1276),
     "Seoul" : (37.5665, 126.9780),
     "Cario" : (30.0444, 31.2357),
-    "Paris" : (48.8566, 2.3522)
+    "Paris" : (48.8566, 2.3522),
+    "Shanghai" : (31.2304, 121.4737),
+    "Istanbul" : (41.0082, 28.9784),
+    "Buenos Aires" : (34.6037, 58.3816)
+    
 }
 
 def weather_summary(conditions):
