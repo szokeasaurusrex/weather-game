@@ -21,6 +21,11 @@ city = {
     "Budapest": (47.4979, 19.0402),
     "Vienna": (48.2082, 16.3738),
     "Cleveland": (41.4993, -81.6944),
+    "Istanbul" : (41.0082, 28.9784),
+    "Buenos Aires" : (34.6037, 58.3816),
+    "Berlin" : (52.5200, 13.4050),
+    "Hong Kong" : (22.3193, 114.1694),
+    "Washington DC" : (38.9072, -77.0369)
 }
 
 def weather_summary(conditions):
