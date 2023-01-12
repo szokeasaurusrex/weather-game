@@ -16,9 +16,11 @@ city = {
     "Cario" : (30.0444, 31.2357),
     "Paris" : (48.8566, 2.3522),
     "Shanghai" : (31.2304, 121.4737),
-    "Istanbul" : (41.0082, 28.9784),
-    "Buenos Aires" : (34.6037, 58.3816)
-    
+    "Istanbul" : (-41.0082, -28.9784),
+    "Buenos Aires" : (34.6037, 58.3816),
+    "Budapest": (47.4979, 19.0402),
+    "Vienna": (48.2082, 16.3738),
+    "Cleveland": (41.4993, -81.6944),
 }
 
 def weather_summary(conditions):
